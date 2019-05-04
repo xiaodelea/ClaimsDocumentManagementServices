@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "ClaimsDocumentManagementServices.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ClaimsDocumentManagementServices.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClaimsDocumentManagementServices.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClaimsDocumentManagementServices.Core/1.0.0": {
+      "type": "project",
+      "path": "../ClaimsDocumentManagementServices.Core/ClaimsDocumentManagementServices.Core.csproj",
+      "msbuildProject": "../ClaimsDocumentManagementServices.Core/ClaimsDocumentManagementServices.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "ClaimsDocumentManagementServices.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\arpitsharma\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Workspace\\EClaimsBackEnd\\ClaimsDocumentManagementServices\\ClaimsDocumentManagementServices.Infrastructure\\ClaimsDocumentManagementServices.Infrastructure.csproj",
+      "projectName": "ClaimsDocumentManagementServices.Infrastructure",
+      "projectPath": "D:\\Workspace\\EClaimsBackEnd\\ClaimsDocumentManagementServices\\ClaimsDocumentManagementServices.Infrastructure\\ClaimsDocumentManagementServices.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\arpitsharma\\.nuget\\packages\\",
+      "outputPath": "D:\\Workspace\\EClaimsBackEnd\\ClaimsDocumentManagementServices\\ClaimsDocumentManagementServices.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\arpitsharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {
+            "D:\\Workspace\\EClaimsBackEnd\\ClaimsDocumentManagementServices\\ClaimsDocumentManagementServices.Core\\ClaimsDocumentManagementServices.Core.csproj": {
+              "projectPath": "D:\\Workspace\\EClaimsBackEnd\\ClaimsDocumentManagementServices\\ClaimsDocumentManagementServices.Core\\ClaimsDocumentManagementServices.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
